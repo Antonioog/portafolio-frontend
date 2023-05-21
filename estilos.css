@@ -68,10 +68,12 @@ html {
   color: #fff;
   display: flex;
   align-items: center;
+  padding-top: 60px;
 }
 .inicio .contenido-banner {
   padding-top: 60px;
   background-color: #1e2326;
+  opacity: 0.8;
   max-width: 350px;
   margin: auto;
   text-align: center;
@@ -89,11 +91,16 @@ html {
 .inicio .contenido-banner h1 {
   margin-top: 40px;
   font-size: 42px;
-  font-family: "Righteous";
+  font-family: "Work Sans";
 }
 .inicio .contenido-banner h2 {
   font-size: 15px;
   font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.inicio .contenido-banner p {
+  color: #1cb698;
 }
 .inicio .contenido-banner .redes a {
   color: #fff;
@@ -121,8 +128,8 @@ html {
   margin: auto;
 }
 .sobremi h2 {
-  font-size: 48px;
-  font-family: "Righteous";
+  font-size: 35px;
+  font-family: "Work Sans";
   text-align: center;
   padding: 20px 0;
 }
@@ -143,7 +150,7 @@ html {
 }
 .sobremi .fila .col h3 {
   font-size: 28px;
-  font-family: "Righteous";
+  font-family: "Work Sans";
   margin-bottom: 25px;
 }
 .sobremi .fila .col ul {
@@ -214,6 +221,44 @@ html {
   width: 100%;
 }
 
+.sobremi .download a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*TECNOLOGIAS*/
+.stack {
+  background-color: #1e2326;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.stack h2 {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 35px;
+}
+.contenido-stack {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-around;
+}
+.contenido-stack .tecnologia {
+  width: 100px;
+  height: 100px;
+  background-color: #252a2e;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 20px 33px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.contenido-stack .tecnologia .tailwind {
+  background-color: #fff;
+}
 /* SECCION PORTFOLIO */
 .portfolio {
   background-color: #252a2e;
@@ -225,8 +270,8 @@ html {
   margin: auto;
 }
 .portfolio h2 {
-  font-size: 48px;
-  font-family: "Righteous";
+  font-size: 35px;
+  font-family: "Work Sans";
   text-align: center;
   padding: 20px 0;
 }
@@ -308,8 +353,8 @@ html {
   margin: auto;
 }
 .contacto h2 {
-  font-size: 48px;
-  font-family: "Righteous";
+  font-size: 35px;
+  font-family: "Work Sans";
   text-align: center;
   padding: 20px 0;
 }
@@ -366,7 +411,7 @@ html {
 }
 .contacto .col .info {
   position: absolute;
-  top: 50%;
+  top: 35%;
   background-color: #252a2e;
   padding: 10px;
   max-width: 800px;

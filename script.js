@@ -25,11 +25,13 @@ function handleSubmit(event) {
   event.preventDefault();
 
   const form = new FormData(this);
+  $form.reset();
   $buttonMailTo.setAttribute(
     "href",
     `mailto:arkanamos1985@gmail.com?subject=${form.get("nombre")}${form.get(
       "email"
     )}&body=${form.get("mensaje")}`
   );
+
   $buttonMailTo.click();
 }

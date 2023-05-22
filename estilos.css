@@ -231,6 +231,8 @@ html {
   background-color: #1e2326;
   color: #fff;
   padding: 50px 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .stack h2 {

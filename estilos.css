@@ -282,7 +282,7 @@ html {
 }
 .portfolio .galeria .proyecto {
   position: relative;
-  width: 340px;
+  width: 300px;
   height: 250px;
   margin: 10px;
   cursor: pointer;
@@ -499,6 +499,13 @@ footer .arriba {
     max-width: 100%;
     justify-content: center;
   }
+
+  .contenido-stack {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: fit-content;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 700px) {
   .sobremi .fila {
@@ -514,10 +521,11 @@ footer .arriba {
   }
   .portfolio .galeria .proyecto {
     max-width: 100%;
-    margin: auto 0;
+    margin: auto;
   }
   .portfolio .galeria .proyecto img {
     width: 100%;
+    border-bottom: 10px solid #1e2326;
   }
   .contacto .col .info {
     display: none;
@@ -527,5 +535,23 @@ footer .arriba {
   }
   .contacto .fila .col {
     width: 100%;
+  }
+
+  .contenido-stack {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .contenido-stack {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    margin: 0 auto;
   }
 }

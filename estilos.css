@@ -506,10 +506,12 @@ footer .arriba {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: fit-content;
-    margin: 0 auto;
   }
 }
 @media screen and (max-width: 700px) {
+  .sobremi {
+    padding-top: 280px;
+  }
   .sobremi .fila {
     display: block;
   }

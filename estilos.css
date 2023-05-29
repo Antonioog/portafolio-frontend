@@ -63,7 +63,7 @@ html {
       rgba(30, 35, 38, 1)
     ),
     url(img/fondo.jpg);
-  background-size: cover;
+  background-position: center center;
   height: 100vh;
   color: #fff;
   display: flex;

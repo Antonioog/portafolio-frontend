@@ -16,6 +16,21 @@ function seleccionar() {
   menuVisible = false;
 }
 
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".contenido-banner, h2", { origin: "top" });
+ScrollReveal().reveal(
+  ".p-sobremi, .fila, .download, .contenido-stack, .galeria, .fila, .enviar",
+  {
+    origin: "bottom",
+  }
+);
+
 const $form = document.querySelector("#form");
 const $buttonMailTo = document.querySelector("#trucazo");
 
